@@ -1,6 +1,0 @@
-name = input("your name")
-age = input("your age")
-region = input("your region")
-email = input("your email")
-password = input("create password")
-re_enter_password = input("re-enter your password")
