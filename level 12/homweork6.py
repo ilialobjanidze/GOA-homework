@@ -1,5 +1,5 @@
 
-score = int(input("შეიყვანეთ ქულა (0-100): "))
+score = int(input("enter your score (0-100): "))
 
 
 if score >= 90 and score <= 100:
@@ -15,5 +15,5 @@ elif score >= 0 and score <= 59:
 else:
     grade = "Invalid score entered"
 
-# დაბეჭდვა შედეგის მიხედვით
+
 print(f"Your Score is : {score}, Your grade is: {grade}")
