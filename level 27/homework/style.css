@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Grey+Qo&display=swap');
+
+
+
+.p1 {
+    font-family: "Matemasie", sans-serif;
+}
+
+.p2 {
+    font-family: "Bungee Tint", sans-serif;
+}
+.p3 {
+    font-family:"Grey Qo", sans-serif ;
+}
+.p4 {
+    text-decoration: dashed underline cadetblue;
+}
+.p5 {
+    text-decoration: overline skyblue;
+}
+.p6 {
+    text-decoration: wavy overline brown;
+}
+.p7 {
+    text-decoration: double line-through red;
+}
+.p8 {
+    text-decoration: solid underline cyan;
+
+}
