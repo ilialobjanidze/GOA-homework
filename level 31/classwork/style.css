@@ -1,0 +1,35 @@
+ol {
+    list-style-type: upper-roman;
+
+}
+
+ul {
+    list-style-type: disc;
+}
+
+button:hover{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); 
+}
+
+button{
+padding: 15px 30px;
+font-size: 18px;
+font-weight: bold;
+color: #fff;
+background: linear-gradient(45deg, #6a11cb, #2575fc); 
+border: none;
+border-radius: 25px;
+cursor: pointer;
+transition:  0.4s ; 
+letter-spacing: 1px;
+}
+
+button :active{
+translateY(2px);
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);  
+}
+
+#T1 {
+border: none;
+border-radius: ;
+}
