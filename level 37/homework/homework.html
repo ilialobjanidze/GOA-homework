@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #2c2f33;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+            "header header"
+            "sidebar content-1"
+            "sidebar content-2"
+            "sidebar content-3"
+            "footer footer";
+        gap: 10px;
+        padding: 10px;
+        height: 100vh;
+    }
+    
+    .header {
+        grid-area: header;
+        background: linear-gradient(to right, #8e44ad, #9b59b6);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        font-size: 24px;
+    }
+    
+    .sidebar {
+        grid-area: sidebar;
+        background: linear-gradient(to right, #1abc9c, #16a085);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+    
+    .content-1 {
+        grid-area: content-1;
+        background: linear-gradient(to right, #3498db, #2980b9);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+    
+    .content-2 {
+        grid-area: content-2;
+        background: linear-gradient(to right, #3498db, #2980b9);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+    
+    .content-3 {
+        grid-area: content-3;
+        background: linear-gradient(to right, #3498db, #2980b9);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+    
+    .footer {
+        grid-area: footer;
+        background: linear-gradient(to right, #8e44ad, #9b59b6);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        font-size: 18px;
+    }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">header</div>
+        <div class="sidebar">sidebar</div>
+        <div class="content-1">Content-1</div>
+        <div class="content-2">Content-2</div>
+        <div class="content-3">Content-3</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>
