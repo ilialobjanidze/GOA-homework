@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            
+        }
+
+        .moving-box {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: #1e90ff;
+            border-radius: 10px; 
+            transform: translateY(-50%); 
+            animation: move 3s linear infinite; 
+        }
+
+        @keyframes move {
+            0% {
+                left: 0; 
+            }
+            50% {
+                left: calc(100vw - 100px); 
+            }
+            100% {
+                left: 0; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="moving-box"></div>
+
+</body>
+</html>
