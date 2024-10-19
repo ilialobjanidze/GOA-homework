@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #0a0a23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .insights-section {
+    display: flex;
+    align-items: center;
+    background-color: #1c1c38;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  .content {
+    padding: 40px;
+    color: white;
+    flex: 1;
+  }
+  
+  .content h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .content h1 span {
+    color: #a084ff;
+  }
+  
+  .content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #c2c2c2;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .stats div h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .stats div p {
+    font-size: 14px;
+    color: #a0a0a0;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(50%) hue-rotate(260deg);
+  }
+  
