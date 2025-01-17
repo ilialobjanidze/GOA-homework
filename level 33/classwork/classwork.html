@@ -1,0 +1,45 @@
+<!--display: flex organizes child elements in a flexible container along a single axis, enabling responsive layouts.
+justify-content controls the alignment of items on the main axis, with values like flex-start, flex-end, center, space-between, space-around, and space-evenly.
+align-items aligns items on the cross axis (perpendicular to the main axis), with values like flex-start, flex-end, center, baseline, and stretch.
+flex-direction defines the direction of the main axis (row, row-reverse, column, or column-reverse), determining item layout.
+flex-wrap specifies whether items should wrap onto the next line when there's insufficient space, with values like nowrap, wrap, and wrap-reverse.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row; 
+            flex-wrap: wrap;
+            height: 200px;
+            border: 2px solid black;
+        }
+
+        .item {
+            background-color: lightblue;
+            margin: 10px;
+            padding: 20px;
+            width: 80px;
+            height: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+</div>
+
+</body>
+</html>

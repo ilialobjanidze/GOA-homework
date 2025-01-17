@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @keyframes complexAnimation {
+      0% {
+        background-color: red;
+        transform: scale(1) rotate(0deg);
+        border-radius: 0%;
+      }
+      25% {
+        background-color: orange;
+        transform: scale(1.5) rotate(45deg);
+        border-radius: 25%;
+      }
+      50% {
+        background-color: yellow;
+        transform: scale(2) rotate(90deg);
+        border-radius: 50%;
+      }
+      75% {
+        background-color: green;
+        transform: scale(1.5) rotate(135deg);
+        border-radius: 75%;
+      }
+      100% {
+        background-color: blue;
+        transform: scale(1) rotate(180deg);
+        border-radius: 100%;
+      }
+    }
+
+    .animated-square {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation: complexAnimation 2s 3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="animated-square"></div>
+
+</body>
+</html>

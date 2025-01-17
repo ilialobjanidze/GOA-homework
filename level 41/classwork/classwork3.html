@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @keyframes fiveStateAnimation {
+      0% {
+        background-color: red;
+        transform: scale(1);
+      }
+      25% {
+        background-color: yellow;
+        transform: scale(1.25);
+      }
+      50% {
+        background-color: green;
+        transform: scale(1.5);
+      }
+      75% {
+        background-color: blue;
+        transform: scale(1.75);
+      }
+      100% {
+        background-color: purple;
+        transform: scale(2);
+      }
+    }
+
+    .animated-element {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation: fiveStateAnimation 5s infinite;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="animated-element"></div>
+
+</body>
+</html>
+
+
+
+<!--Keyframes - ეს არის CSS ანიმაციის ნაწილი, რომელიც განსაზღვრავს იმ მდგომარეობებს, რომლებშიც ელემენტი იქნება ანიმაციის პროცესში.
+Frames - ანიმაციის ყველა მდგომარეობაა, რომლებიც გამოვლენენ keyframes-ის გავლით-->

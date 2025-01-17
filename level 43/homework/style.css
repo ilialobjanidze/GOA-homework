@@ -1,0 +1,186 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90rem;
+  height: 51.25rem;
+  min-height: 100vh;
+  background-color: #e0e8ff;
+  background-repeat: no-repeat;
+}
+
+section {
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+  display: flex;
+  flex-direction: column;
+  width: 28.125rem;
+  height: 43.5625rem;
+  background: #fff;
+  border-radius: 1.25rem;
+}
+
+section img {
+  width: 28.125rem;
+  height: 13.75rem;
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+}
+
+.benefits_explanation {
+  margin: 0 3rem 1.25rem 3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  color: #717fa6;
+  text-align: center;
+}
+
+h1 {
+  margin: 2.81rem 3rem 1.06rem 3rem;
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #1f2e55;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 900;
+  color: #1f2e55;
+}
+
+.change {
+  text-decoration-line: underline;
+  margin: 0.94rem 0 0.88rem 5.87rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #382ae1;
+}
+
+.musical_note {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1.25rem;
+}
+
+.payment {
+  display: flex;
+  flex-direction: row;
+  width: 22.125rem;
+  height: 6.125rem;
+  margin: 0 3rem;
+  padding: 1.56rem 1.5rem;
+  background: #f7f9ff;
+  border-radius: 0.6875rem;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  color: #717fa6;
+}
+
+.proceed_payment {
+  box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+  width: 22.125rem;
+  height: 3.125rem;
+  margin: 2rem 3rem 0 3rem;
+  background: #382ae1;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.6875rem;
+  font-size: 0.9375rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.proceed_payment:hover {
+  background: #766cf1;
+}
+
+.cancel_order {
+  margin-top: 2rem;
+  background: none;
+  cursor: pointer;
+  border: none;
+  font-size: 0.9375rem;
+  font-weight: 900;
+  color: #717fa6;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 23.4375rem) {
+  body {
+    width: 23.4375rem;
+    height: 44.3125rem;
+  }
+  main {
+    background-image: url(./images/pattern-background-mobile.svg);
+  }
+  section {
+    width: 20.4375rem;
+    height: 35.4375rem;
+  }
+  section img {
+    width: 20.4375rem;
+    height: 10rem;
+  }
+  h1 {
+    margin: 2rem 2rem 1rem 2rem;
+    font-size: 1.375rem;
+    font-weight: 900;
+  }
+  h2 {
+    font-size: 0.875rem;
+    font-weight: 900;
+  }
+  .benefits_explanation {
+    margin: 0 2rem 0 2rem;
+  }
+  .payment {
+    width: 17.4375rem;
+    height: 5.0625rem;
+    margin: 1.5rem;
+    padding: 1.06rem 1rem 1rem 1rem;
+  }
+  .change {
+    margin: 1rem 0 0.94rem 3.12rem;
+    font-size: 0.8125rem;
+  }
+  .price {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    color: #717fa6;
+  }
+  .proceed_payment {
+    width: 17.4375rem;
+    height: 3.125rem;
+    margin: 0 1.5rem 0 1.5rem;
+  }
+  .cancel_order {
+    margin-top: 1.5rem;
+  }
+}
