@@ -96,27 +96,3 @@ def sum_array(a):
     return sum(a)
 
 
-#7 KYU
-#1
-def disemvowel(s):
-    vowels = "aeiouAEIOU"
-    return ''.join([char for char in s if char not in vowels])
-
-#2
-def high_and_low(numbers):
-    num_list = list(map(int, numbers.split()))
-    return f"{max(num_list)} {min(num_list)}"
-
-#3
-def descending_order(n):
-    return int(''.join(sorted(str(n), reverse=True)))
-
-#4
-def is_square(n):
-    if n < 0:
-        return False
-    return int(n**0.5) ** 2 == n
-
-#5
-def filter_list(l):
-    return [item for item in l if isinstance(item, int)]
