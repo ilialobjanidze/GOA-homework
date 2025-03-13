@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+.card{
+    width: 300px;
+    min-height: 530px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+}
+
+.card .image{
+    position: relative;
+}
+
+.card .image>img{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 18px;
+    width: calc(100% - 30px);
+    height: 270px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.main-img{
+    transition: 0.4s;
+}
+
+.card:hover .main-img::before{
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    background-color:  hsla(178, 100%, 50%, 0.5);
+    width: calc(100% - 30px);
+    border-radius:8px ;
+    height: 270px;
+    z-index: 1;
+}
+
+.word h3{
+    color: hsl(0, 0%, 100%);
+    margin:20px 15px ;
+    transition: 0.4s;
+}
+
+.card:hover .word h3{
+    color: hsla(178, 100%, 50%, 0.749) ;
+}
+
+.par{
+    color: hsl(215, 51%, 70%);
+    margin: 20px 15px 15px;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.parent::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    width: 270px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.child1,
+.child2{
+    margin: 20px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.child1 p,
+.child2 p{
+    margin-left: 8px;
+}
+
+
+.ethereum{
+    width: 10px;
+    height: 15px;
+}
+
+.clock{
+    width: 15px;
+    height: 15px;
+}
+
+.profile{
+    display: flex;
+    color: white;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px 15px;
+}
+
+.profile img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.profile p{
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+.profile p span{
+    color:  white;
+    transition: 0.4s;
+}
+
+.card:hover .profile p span{
+    color: hsla(178, 100%, 50%, 0.749) ;
+}

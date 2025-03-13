@@ -1,0 +1,12 @@
+{
+  "name": "classwork1",
+  "version": "1.0.0",
+  "description": "a",
+  "license": "ISC",
+  "author": "Ilia Lobjanidze",
+  "type": "module",
+  "main": "calsswork3",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
