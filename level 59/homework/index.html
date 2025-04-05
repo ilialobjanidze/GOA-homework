@@ -72,57 +72,7 @@
     </form>
 </div>
 
-<script>
-    document.getElementById("registrationForm").addEventListener("submit", function(event) {
-        event.preventDefault();
-        
-        let isValid = true;
-        
-        // Clear previous errors
-        document.querySelectorAll("input, select").forEach(input => {
-            input.classList.remove("error");
-        });
-
-        // Validate fields
-        let name = document.getElementById("name");
-        let email = document.getElementById("email");
-        let password = document.getElementById("password");
-        let gender = document.getElementById("gender");
-        let country = document.getElementById("country");
-        let terms = document.getElementById("terms");
-
-        // Check if all fields are filled
-        if (name.value === "") {
-            name.classList.add("error");
-            isValid = false;
-        }
-        if (email.value === "") {
-            email.classList.add("error");
-            isValid = false;
-        }
-        if (password.value === "") {
-            password.classList.add("error");
-            isValid = false;
-        }
-        if (gender.value === "") {
-            gender.classList.add("error");
-            isValid = false;
-        }
-        if (country.value === "") {
-            country.classList.add("error");
-            isValid = false;
-        }
-        if (!terms.checked) {
-            alert("You must agree to the Terms & Conditions.");
-            isValid = false;
-        }
-
-        // If valid, submit form
-        if (isValid) {
-            alert("Registration successful!");
-            // Normally you would submit the form here
-        }
-    });
+<script src="/level 59/homework/">
 </script>
 
 </body>
