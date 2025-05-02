@@ -1,0 +1,59 @@
+Immutable
+Strings in Python cannot be changed after creation.
+
+It returns a new string
+.replace() creates and returns a new string without altering the original.
+
+No
+Tuples use (), but {} is for both dict and set, depending on context.
+
+Incorrect
+The correct phrase is "I created a function".
+
+Yes, Python is case-sensitive
+Variable and variable are treated as different identifiers.
+
+2
+In Python, True is treated as 1, so True + True is 2.
+
+1000000
+Underscores in numeric strings are ignored by int().
+
+Depends on code
+The answer requires seeing the specific code snippet.
+
+Falsy
+An empty list, string, or container is evaluated as False in Boolean context.
+
+Depends on code
+As above, output depends on the actual code.
+
+Yes
+You can include an if condition at the end of a list comprehension.
+
+Yes
+Python supports if-else expressions inside list comprehensions.
+
+Yes
+Python allows defining functions inside other functions (called nested functions).
+
+Yes
+ZeroDivisionError is a real exception raised when dividing by zero.
+
+Anonymous functions
+Lambda functions are small, unnamed, one-line functions.
+
+Also anonymous functions
+Same as above — they’re short, unnamed functions often used inline.
+
+True
+not "" evaluates to True since empty strings are falsy.
+
+Not a lie — it’s true
+In Python, everything is an object, including functions, classes, and types.
+
+No, they are different
+is checks identity (same memory), == checks equality (same value).
+
+High level
+Python abstracts low-level operations and is easy to read and write.
